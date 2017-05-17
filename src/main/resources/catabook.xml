@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations>
+    <property>
+        <name>catabook.backend</name>
+        <value>com.cuandas.catabook.backend.MongoBackend</value>
+    </property>
+    <property>
+        <name>catabook.mongodb.server</name>
+        <value>172.16.11.70:27017</value>
+    </property>
+    <property>
+        <name>catabook.mongodb.auth.db</name>
+        <value>catabook</value>
+    </property>
+    <property>
+        <name>catabook.mongodb.auth.user</name>
+        <value>admin</value>
+    </property>
+    <property>
+        <name>catabook.mongodb.auth.passwd</name>
+        <value>admin</value>
+    </property>
+    <!--<property>-->
+        <!--<name>catabook.jdbc.mysql</name>-->
+        <!--<value>jdbc:mysql://172.16.11.70:3306?user=root&amp;password=password</value>-->
+    <!--</property>-->
+</configurations>
